@@ -74,6 +74,31 @@ footer {
   opacity: 0.7;
 }
 
+
+/* Layout Enhancements */
+.banner {
+  background-color: #e9eff8;
+  padding: 3rem 1.5rem 2rem;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.banner-img {
+  max-width: 100px;
+  margin-bottom: 1rem;
+  opacity: 0.9;
+}
+
+/* Section background variants */
+section:nth-of-type(odd) {
+  background-color: #f9f9f9;
+  padding: 2.5rem 1.5rem;
+}
+section:nth-of-type(even) {
+  background-color: #ffffff;
+  padding: 2.5rem 1.5rem;
+}
+
 .card-container {
   display: flex;
   flex-wrap: wrap;
@@ -81,21 +106,33 @@ footer {
   justify-content: space-between;
   margin-top: 1rem;
 }
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
 
 .card {
-  flex: 1 1 calc(45% - 1rem);
-  background-color: rgba(255, 255, 255, 0.04);
+  background-color: #fff;
   border: 1px solid #ddd;
+  padding: 1.5rem;
+  flex: 1 1 calc(45% - 1rem);
   border-radius: 12px;
-  padding: 1.2rem;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-  transition: transform 0.2s ease;
+  transition: border-color 0.2s ease;
 }
 
 .card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  border-color: #999;
 }
+
+.card-img {
+  width: 100%;
+  max-height: 150px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
 
 .card h3 {
   margin-top: 0;
