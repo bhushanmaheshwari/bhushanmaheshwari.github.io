@@ -1,10 +1,35 @@
+:root {
+  --bg-light: #ffffff;
+  --bg-dark: #1e1e1e;
+  --text-light: #333;
+  --text-dark: #eee;
+  --link-light: #0066cc;
+  --link-dark: #90cdf4;
+}
+
+[data-theme='light'] {
+  background-color: var(--bg-light);
+  color: var(--text-light);
+}
+
+[data-theme='dark'] {
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+}
+
+[data-theme='light'] a {
+  color: var(--link-light);
+}
+[data-theme='dark'] a {
+  color: var(--link-dark);
+}
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: system-ui, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #fdfdfd;
-  color: #333;
   line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
 }
 
 .container {
@@ -16,56 +41,35 @@ body {
 header {
   text-align: center;
   padding-bottom: 1rem;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #ddd;
 }
 
-header h1 {
-  margin-bottom: 0.25rem;
-}
-
-.contact a {
-  color: #0066cc;
-  text-decoration: none;
-  margin: 0 0.5rem;
-}
-
-.contact a:hover {
-  text-decoration: underline;
-}
-
-section {
-  margin: 2rem 0;
+.toggle-btn {
+  margin-top: 1rem;
+  padding: 0.4rem 0.8rem;
+  background: none;
+  border: 1px solid currentColor;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 h2 {
   border-bottom: 2px solid #eee;
   padding-bottom: 0.25rem;
-  color: #222;
 }
 
 ul {
-  list-style-type: disc;
+  list-style: disc;
   padding-left: 1.5rem;
 }
 
-.job {
-  margin-bottom: 1.5rem;
-}
-
-.job h3 {
-  margin: 0.25rem 0;
-  font-size: 1.1rem;
-  color: #111;
-}
-
-.job span {
-  font-size: 0.9rem;
-  color: #777;
+.job, .project {
+  margin-bottom: 1.25rem;
 }
 
 footer {
   text-align: center;
-  margin-top: 3rem;
-  font-size: 0.875rem;
-  color: #aaa;
+  margin-top: 2rem;
+  font-size: 0.85rem;
+  opacity: 0.7;
 }
