@@ -147,6 +147,24 @@ section:nth-of-type(even) {
   color: #444;
 }
 
+.cta {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.cta-img {
+  max-width: 150px;
+  margin: 0 auto 1rem;
+  opacity: 0.9;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 1rem;
+  color: #555;
+}
+
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .card {
