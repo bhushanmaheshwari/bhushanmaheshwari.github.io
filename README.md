@@ -5,49 +5,63 @@ Washington DC, USA | [LinkedIn](https://www.linkedin.com/in/bhushanmaheshwari) |
 
 ---
 
-🌱 _Welcome to my digital workspace._
+🌟 _Welcome to my personal profile._
 
-This is more than just a profile page — it's my curated **personal site**, designed with clarity, purpose, and simplicity (inspired by Notion’s elegance). I've chosen to go beyond a static resume to give you a more living, evolving look into my work and philosophy as a tech professional.
-
----
-
-## 💼 Who Am I?
-
-With over **13 years of experience** building scalable, impactful, and AI-powered digital solutions, I thrive at the intersection of **strategy, engineering, and innovation**. Currently, I lead AI/Automation initiatives at **The World Bank Group**, where I design GenAI platforms, RAG pipelines, document intelligence tools, and global collaboration solutions.
-
-I believe in combining deep technical thinking with empathetic design and agile execution. I love building things that matter — systems that scale, automate, empower, and inspire.
+This repository hosts my **digital resume and portfolio site**, designed for clarity, simplicity, and impact. It’s where I share how I design and deliver **scalable, AI-powered cloud solutions** that solve real-world challenges across industries.
 
 ---
 
-## 🔧 What I Do
+## 💼 About Me
 
-- **Architect GenAI and NLP solutions** for operational and fiduciary knowledge systems
-- Build cloud-native systems using **Azure**, **Databricks**, and **LangChain**
-- Lead product teams using **SAFe**, **Agile**, and **Design Thinking**
-- Design modular and composable AI services for internal platforms
-- Explore tech frontiers like **agentic workflows**, **LLM orchestration**, and **geospatial AI**
+I bring 13+ years of experience designing intelligent platforms across **Generative AI**, **cloud-native systems**, and **data engineering pipelines**. I currently lead architecture for enterprise-grade AI solutions — aligning vision, engineering, and measurable business value.
+
+I'm passionate about turning strategy into systems. My work bridges **responsible AI design, modern engineering, and agile product leadership**.
 
 ---
 
-## 📄 What You'll Find Here
+## 🔧 Core Skills
 
-- A clean and readable [personal profile page](https://bhushanmaheshwari.github.io/)
-- Projects I’ve worked on: Generative AI, RAG, document intelligence, geospatial analytics
-- Downloadable [resume](./Bhushan-Maheshwari-Resume.pdf)
-- A theme toggle 🌙 because why not?
-
----
-
-## ✨ Let's Build the Future
-
-I’m passionate about transforming ambitious ideas into powerful, responsible, and elegant software. Whether you're curious about collaboration, want to geek out about LangGraph, or just say hello — feel free to connect.
-
-> “I am passionate about crafting GenAI roadmaps, mentoring engineers, and building bridges between vision and execution — one thoughtful system at a time.”
-
-— Bhushan Maheshwari
+- **GenAI / LLMs**: LangChain, LangGraph, Retrieval-Augmented Generation (RAG)
+- **Cloud & Data Platforms**: Azure, Databricks, Data Lake, CI/CD
+- **Architecture**: Microservices, Event-Driven Design, Infrastructure as Code
+- **Frontend & Backend**: React, Angular, Python, Node.js, REST/GraphQL
+- **Leadership**: Agile / SAFe Execution, Roadmapping, Cross-functional Coaching
 
 ---
 
-🧭 *Built with HTML, CSS, and a touch of vision.*  
+## 🚀 Highlighted Solutions
+
+Here are a few solutions I’ve designed or led that represent scalable architecture, AI integration, and strong product outcomes:
+
+### 🧠 Enterprise Document Intelligence Platform  
+LLM-based content pipeline that automated document generation, summarization, and validation.  
+**Impact:** 40% reduction in manual effort, 50K+ documents processed, used by 10+ teams.
+
+### 🌍 Geospatial Risk Visualization System  
+Interactive analytics dashboard integrating geospatial layers and AI summarization for large-scale monitoring.  
+**Impact:** Adopted across 1000+ entities; accelerated insights by 2×.
+
+### 🤖 AI-Powered Knowledge Assistant  
+Conversational AI assistant using RAG pipelines and cloud orchestration for real-time knowledge access.  
+**Impact:** 60% faster document discovery, scalable to 50+ teams.
+
+### 🧩 Organizational AI Knowledge Hub  
+Central platform to showcase AI tools, architecture patterns, and reusable resources.  
+**Impact:** 4× increase in AI visibility; adopted by 20+ internal teams.
+
+---
+
+## 📄 Live Preview & Resume
+
+- Visit my portfolio: [bhushanmaheshwari.github.io](https://bhushanmaheshwari.github.io/)
+- Download resume: [📄 Bhushan-Maheshwari-Resume.pdf](./Bhushan-Maheshwari-Resume.pdf)
+
+---
+
+> “I believe the best solutions are thoughtfully architected, responsibly automated, and built for scale.”  
+> — Bhushan Maheshwari
+
+---
+
+🧭 *Crafted with HTML, CSS, and a little Python brainpower*  
 🕊️ _Hosted on GitHub Pages_
-
