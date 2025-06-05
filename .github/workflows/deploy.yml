@@ -35,7 +35,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          sparse-checkout: portfolio
+          path: portfolio
       - name: Detect package manager
         id: detect-package-manager
         run: |
