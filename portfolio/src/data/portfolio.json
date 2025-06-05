@@ -15,10 +15,10 @@
     "cta": "View My Work"
   },
   "coreCompetencies": [
-    { "icon": "/vector - 0.svg", "label": "User Research" },
-    { "icon": "/vector - 1.svg", "label": "Wireframing" },
-    { "icon": "/vector - 2.svg", "label": "Prototyping" },
-    { "icon": "/vector - 3.svg", "label": "Usability Testing" }
+    { "icon": "/Vector-0.svg", "label": "User Research" },
+    { "icon": "/Vector-1.svg", "label": "Wireframing" },
+    { "icon": "/Vector-2.svg", "label": "Prototyping" },
+    { "icon": "/Vector-3.svg", "label": "Usability Testing" }
   ],
   "featuredProjects": [
     {
@@ -71,39 +71,39 @@
   ],
   "experience": [
     {
-      "icon": "/vector - 5.svg",
+      "icon": "/Vector-5.svg",
       "title": "UX Designer at Tech Innovators Inc. (2018-Present)",
       "desc": "Led design for major product launches, resulting in a 20% increase in user engagement. Key projects included a redesign of the flagship product's user interface and the development of a new mobile application."
     },
     {
-      "icon": "/vector - 6.svg",
+      "icon": "/Vector-6.svg",
       "title": "Interaction Designer at Digital Solutions Co. (2013-2018)",
       "desc": "Developed user interfaces for web and mobile applications, focusing on usability and accessibility. Notable projects included designing the user experience for a popular e-commerce platform and a suite of productivity tools."
     },
     {
-      "icon": "/vector - 8.svg",
+      "icon": "/Vector-8.svg",
       "title": "Junior Designer at Creative Minds Agency (2008-2013)",
       "desc": "Created visual designs and prototypes for various client projects, gaining experience in user-centered design. Worked on projects ranging from marketing websites to internal tools, contributing to the design process from concept to execution."
     }
   ],
   "certifications": [
     {
-      "icon": "/vector - 9.svg",
+      "icon": "/Vector-9.svg",
       "title": "Microsoft Certified: Azure Solutions Architect Expert",
       "type": "Cloud Solutions"
     },
     {
-      "icon": "/vector - 12.svg",
+      "icon": "/Vector-12.svg",
       "title": "SAFe® Certified Agilist",
       "type": "Agile"
     },
     {
-      "icon": "/vector - 9.svg",
+      "icon": "/Vector-9.svg",
       "title": "Microsoft Certified: Generative AI Solutions",
       "type": "Cloud Solutions"
     },
     {
-      "icon": "/vector - 13.svg",
+      "icon": "/Vector-13.svg",
       "title": "eCornell Diploma in Design Thinking",
       "type": "Design Thinking"
     }

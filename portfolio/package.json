@@ -2,12 +2,11 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bhushanmaheshwari.github.io/bhushanmaheshwari.github.io",
   "scripts": {
     "dev": "next dev --turbopack",
     "start": "next start",
     "build": "next build",
-    "deploy": "npm run build && npx gh-pages -d out",
+    "deploy": "npm run build && touch ./out/.nojekyll && npx gh-pages -d out",
     "lint": "next lint"
   },
   
