@@ -1,0 +1,28 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://bhushanmaheshwari.github.io/bhushanmaheshwari.github.io",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "start": "next start",
+    "build": "next build",
+    "deploy": "npm run build && npx gh-pages -d out",
+    "lint": "next lint"
+  },
+  
+  "dependencies": {
+    "@fontsource/manrope": "^5.2.5",
+    "next": "15.3.3",
+    "npx": "^10.2.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.8",
+    "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.4",
+    "tailwindcss": "^4.1.8"
+  }
+}
