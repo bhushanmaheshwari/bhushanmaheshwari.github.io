@@ -56,49 +56,57 @@
       "icon": "/Vector-0.svg",
       "label": "User Research",
       "description": "Expert in conducting user interviews, surveys, and usability studies to gather actionable insights",
-      "proficiency": 95
+      "proficiency": 95,
+      "color": "#47579E"
     },
     {
       "icon": "/Vector-1.svg",
       "label": "Wireframing",
       "description": "Skilled in creating low and high-fidelity wireframes using industry-standard tools",
-      "proficiency": 90
+      "proficiency": 90,
+      "color": "#47579E"
     },
     {
       "icon": "/Vector-2.svg",
       "label": "Prototyping",
       "description": "Advanced prototyping skills with interactive elements and user flows",
-      "proficiency": 92
+      "proficiency": 92,
+      "color": "#47579E"
     },
     {
       "icon": "/Vector-3.svg",
       "label": "Usability Testing",
       "description": "Experienced in planning and conducting comprehensive usability tests",
-      "proficiency": 20
+      "proficiency": 20,
+      "color": "#CFD1E8"
     },
     {
       "icon": "/Vector-3.svg",
       "label": "AI Testing",
       "description": "Specialized in testing AI-powered features and machine learning models",
-      "proficiency": 30
+      "proficiency": 30,
+      "color": "#CFD1E8"
     },
     {
       "icon": "/Vector-10.svg",
       "label": "Design Systems",
       "description": "Expert in creating and maintaining scalable design systems",
-      "proficiency": 87
+      "proficiency": 87,
+      "color": "#47579E"
     },
     {
       "icon": "/Vector-5.svg",
       "label": "Agile/SAFe",
       "description": "Certified in Agile methodologies and SAFe framework implementation",
-      "proficiency": 100
+      "proficiency": 100,
+      "color": "#47579E"
     },
     {
       "icon": "/Vector-6.svg",
       "label": "UI Design",
       "description": "Strong visual design skills with focus on accessibility and user experience",
-      "proficiency": 70
+      "proficiency": 70,
+      "color": "#617AFA"
     }
   ],
   "featuredProjects": [
@@ -168,10 +176,14 @@
   "experience": [
     {
       "title": "Senior Software Engineer",
-      "location": "San Francisco, CA",
+      "location": "SFO, CA",
       "year": "2022",
       "skills": ["React", "Node.js", "AWS", "Microservices", "CI/CD"],
-      "description": "Leading development of cloud-native applications using React, Node.js, and AWS. Implementing microservices architecture and CI/CD pipelines. Mentoring junior developers and conducting code reviews.",
+      "description": [
+        "Led development of cloud-native applications using <b>React</b>, <b>Node.js</b>, and <b>AWS</b>",
+        "Implemented <b>microservices architecture</b> and <b>CI/CD pipelines</b>",
+        "Mentored junior developers and conducted <b>code reviews</b>"
+      ],
       "icon": "/Vector-5.svg"
     },
     {
@@ -179,7 +191,11 @@
       "location": "Seattle, WA",
       "year": "2020",
       "skills": ["React", "TypeScript", "Node.js", "Testing", "DevOps"],
-      "description": "Developed and maintained full-stack applications using React, TypeScript, and Node.js. Collaborated with cross-functional teams to deliver features and improvements. Implemented automated testing and deployment processes.",
+      "description": [
+        "Developed and maintained full-stack applications using <b>React</b>, <b>TypeScript</b>, and <b>Node.js</b>",
+        "Collaborated with cross-functional teams to deliver <b>features and improvements</b>",
+        "Implemented automated <b>testing and deployment processes</b>"
+      ],
       "icon": "/Vector-6.svg"
     },
     {
@@ -187,7 +203,11 @@
       "location": "New York, NY",
       "year": "2018",
       "skills": ["React", "Node.js", "Database", "API", "Agile"],
-      "description": "Built responsive web applications using React and Node.js. Worked on database optimization and API development. Participated in agile development processes and sprint planning.",
+      "description": [
+        "Built responsive web applications using <b>React and Node.js</b>",
+        "Worked on <b>database optimization</b> and <b>API development</b>",
+        "Participated in <b>agile development processes</b> and <b>sprint planning</b>"
+      ],
       "icon": "/Vector-8.svg"
     },
     {
@@ -195,7 +215,11 @@
       "location": "Boston, MA",
       "year": "2017",
       "skills": ["React", "Redux", "UI/UX", "Accessibility", "Design Systems"],
-      "description": "Created interactive user interfaces using React and Redux. Implemented responsive designs and accessibility features. Collaborated with UX designers to improve user experience.",
+      "description": [
+        "Created interactive user interfaces using <b>React</b> and <b>Redux</b>",
+        "Implemented <b>responsive designs</b> and <b>accessibility features</b>",
+        "Collaborated with UX designers to improve <b>user experience</b>"
+      ],
       "icon": "/icons/experience/work.svg"
     }
   ],

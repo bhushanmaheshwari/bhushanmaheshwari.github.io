@@ -2,7 +2,7 @@ import Image from "next/image";
 import { useState } from "react";
 
 export default function CoreCompetencies({ data }) {
-  const [hoveredSkill, setHoveredSkill] = useState(null);
+  const [activeSkill, setActiveSkill] = useState(null);
 
   return (
     <section className="max-w-5xl mx-auto px-4 mb-8">
@@ -14,11 +14,15 @@ export default function CoreCompetencies({ data }) {
           <div
             key={item.label}
             className={`group relative flex flex-col bg-white border border-gray-200 rounded-lg px-5 py-4 font-medium text-gray-900 
-              transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg hover:border-[#607af9]
+              transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg
               animate-fade-in-up min-w-[200px]`}
-            style={{ animationDelay: `${index * 100}ms` }}
-            onMouseEnter={() => setHoveredSkill(index)}
-            onMouseLeave={() => setHoveredSkill(null)}
+            style={{ 
+              animationDelay: `${index * 100}ms`,
+              borderColor: activeSkill === index ? item.color : 'rgb(229, 231, 235)'
+            }}
+            onMouseEnter={() => setActiveSkill(index)}
+            onMouseLeave={() => setActiveSkill(null)}
+            onTouchStart={() => setActiveSkill(activeSkill === index ? null : index)}
           >
             <div className="flex items-center gap-3">
               <div className="relative w-7 h-7">
@@ -29,31 +33,35 @@ export default function CoreCompetencies({ data }) {
                   className="object-contain transition-transform duration-300 group-hover:scale-110"
                 />
               </div>
-              <span className="transition-colors duration-300 group-hover:text-[#607af9]">
-            {item.label}
+              <span className="transition-colors duration-300">
+                {item.label}
               </span>
             </div>
 
-            {/* Proficiency indicator */}
+            {/* Proficiency indicator - Always visible with muted state */}
             {item.proficiency && (
-              <div className="mt-3 w-full transition-all duration-300"
-                style={{ 
-                  opacity: hoveredSkill === index ? 1 : 0,
-                  transform: hoveredSkill === index ? 'translateY(0)' : 'translateY(10px)',
-                  height: hoveredSkill === index ? 'auto' : '0',
-                  marginTop: hoveredSkill === index ? '0.75rem' : '0'
-                }}>
+              <div className="mt-3 w-full h-6">
                 <div className="flex items-center gap-2">
                   <div className="flex-1 h-1.5 bg-gray-100 rounded-full overflow-hidden">
                     <div 
-                      className="h-full bg-[#607af9] transition-all duration-500 ease-out"
+                      className="h-full transition-all duration-500 ease-out relative"
                       style={{ 
-                        width: hoveredSkill === index ? `${item.proficiency}%` : '0%',
-                        transitionDelay: hoveredSkill === index ? '0ms' : '300ms'
+                        width: `${item.proficiency}%`,
+                        backgroundColor: activeSkill === index ? item.color : '#e5e7eb'
                       }}
-                    />
+                    >
+                      {/* Animated overlay */}
+                      <div 
+                        className={`absolute inset-0 bg-white/30 transition-transform duration-1000 ease-in-out ${
+                          activeSkill === index ? 'translate-x-full' : 'translate-x-[-100%]'
+                        }`}
+                        style={{
+                          background: 'linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent)'
+                        }}
+                      />
+                    </div>
                   </div>
-                  <span className="text-xs text-gray-500 whitespace-nowrap">
+                  <span className="text-xs text-gray-500 whitespace-nowrap transition-colors duration-300">
                     {item.proficiency}%
                   </span>
                 </div>
