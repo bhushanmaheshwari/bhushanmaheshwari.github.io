@@ -6,7 +6,7 @@ export default function FeaturedProjects({ data }) {
 
   return (
     <section id="projects" className="max-w-5xl mx-auto px-4 mb-8">
-      <h2 className="font-bold text-xl md:text-2xl mb-4 md:mb-6 animate-fade-in-up">Featured Projects</h2>
+      <h2 className="font-bold text-xl md:text-2xl mb-4 md:mb-6 animate-fade-in-up">Enterprise Projects</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
         {data.map((proj, index) => (
           <div 

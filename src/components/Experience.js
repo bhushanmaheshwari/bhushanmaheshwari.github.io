@@ -1,9 +1,8 @@
-import Image from "next/image";
 import { useState, useEffect } from "react";
+import SectionHeader from "./SectionHeader";
 import "../styles/Experience.css";
 
 export default function Experience({ data }) {
-  const [activeIndex, setActiveIndex] = useState(null);
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -16,7 +15,7 @@ export default function Experience({ data }) {
       { threshold: 0.1 }
     );
 
-    const element = document.querySelector('#experience-section');
+    const element = document.querySelector('#experience');
     if (element) observer.observe(element);
 
     return () => {
@@ -25,41 +24,35 @@ export default function Experience({ data }) {
   }, []);
 
   return (
-    <section id="experience-section" className="max-w-5xl mx-auto px-4 mb-12">
-      <h2 className="font-bold text-xl md:text-2xl mb-12 animate-fade-in-up">
-        15 Years of Experience
-      </h2>
-      <div className="experience-timeline">
-        <div className="timeline-line" />
+    <section id="experience" className="max-w-5xl mx-auto px-4 mb-8">
+      <SectionHeader title="Experience" isVisible={isVisible} />
+      <div className="relative">
+        {/* Timeline line */}
+        <div className="absolute left-1/2 transform -translate-x-1/2 w-px h-full bg-gray-200" />
         
-        <div className="timeline-items">
-          {data.map((item, idx) => (
+        {/* Timeline items */}
+        <div className="space-y-16">
+          {data.map((item, index) => (
             <div
               key={item.title}
-              className={`timeline-item ${isVisible ? 'fade-in' : 'fade-out'}`}
-              style={{ transitionDelay: `${idx * 200}ms` }}
-              onMouseEnter={() => setActiveIndex(idx)}
-              onMouseLeave={() => setActiveIndex(null)}
+              className={`relative flex items-center ${
+                index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
+              } ${isVisible ? "fade-in" : ""}`}
             >
-              <div className="timeline-icon">
-                <div className="timeline-icon-inner">
-                  <Image
-                    src={item.icon}
-                    alt=""
-                    width={20}
-                    height={20}
-                  />
-                </div>
+              {/* Icon */}
+              <div className={`absolute left-1/2 transform -translate-x-1/2 w-10 h-10 rounded-full bg-white border border-gray-200 flex items-center justify-center z-10 transition-all duration-300 hover:border-[#607af9] hover:shadow-[0_0_0_2px_#607af9]`}>
+                <img
+                  src={item.icon}
+                  alt={item.title}
+                  className="w-5 h-5 transition-transform duration-300 hover:rotate-12"
+                />
               </div>
 
-              <div className="timeline-content">
-                <div className="timeline-card">
-                  <div className="timeline-title">
-                    {item.title}
-                  </div>
-                  <div className="timeline-description">
-                    {item.desc}
-                  </div>
+              {/* Content */}
+              <div className={`w-full md:w-1/2 ${index % 2 === 0 ? "md:pr-20" : "md:pl-20"} pl-16`}>
+                <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm transition-all duration-300 hover:border-[#607af9] hover:shadow-[0_0_0_2px_#607af9]">
+                  <h3 className="font-bold text-lg mb-3 text-gray-900">{item.title}</h3>
+                  <p className="text-base text-gray-600">{item.description}</p>
                 </div>
               </div>
             </div>

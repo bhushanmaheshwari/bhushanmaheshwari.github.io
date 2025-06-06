@@ -1,0 +1,137 @@
+.github-portfolio {
+  position: relative;
+}
+
+.github-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .github-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .github-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+.github-card {
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 12rem;
+  transition: all 300ms ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.github-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  border-color: #607af9;
+}
+
+.github-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 0%, rgba(96, 122, 249, 0.1) 100%);
+  opacity: 0;
+  transition: opacity 300ms ease;
+}
+
+.github-card:hover::before {
+  opacity: 1;
+}
+
+.github-image-container {
+  position: relative;
+  width: 100%;
+  height: 6rem;
+  overflow: hidden;
+}
+
+.github-image {
+  object-fit: cover;
+  transition: transform 500ms ease;
+}
+
+.github-card:hover .github-image {
+  transform: scale(1.1);
+}
+
+.github-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0.75rem;
+}
+
+.github-title {
+  font-weight: 500;
+  font-size: 0.75rem;
+  margin-bottom: 0.125rem;
+  color: #111827;
+  transition: color 300ms ease;
+}
+
+.github-card:hover .github-title {
+  color: #607af9;
+}
+
+.github-description {
+  color: #6b7280;
+  font-size: 0.75rem;
+  line-height: 1.25;
+}
+
+.github-link {
+  display: inline-block;
+  background-color: #f3f4f6;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #111827;
+  transition: all 300ms ease;
+}
+
+.github-link:hover {
+  background-color: #e5e7eb;
+  transform: translateY(-2px);
+}
+
+/* Animation classes */
+.fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.stagger-animation {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+.stagger-animation:nth-child(1) { animation-delay: 0.1s; }
+.stagger-animation:nth-child(2) { animation-delay: 0.2s; }
+.stagger-animation:nth-child(3) { animation-delay: 0.3s; }
+.stagger-animation:nth-child(4) { animation-delay: 0.4s; }
+.stagger-animation:nth-child(5) { animation-delay: 0.5s; } 
