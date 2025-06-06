@@ -3,9 +3,18 @@
     "logo": "globe.svg",
     "title": "Professional Portfolio",
     "links": [
-      { "label": "About", "href": "#about" },
-      { "label": "Projects", "href": "#projects" },
-      { "label": "Certifications", "href": "#certifications" }
+      {
+        "label": "About",
+        "href": "#about"
+      },
+      {
+        "label": "Projects",
+        "href": "#projects"
+      },
+      {
+        "label": "Certifications",
+        "href": "#certifications"
+      }
     ],
     "resume": "Resume"
   },
@@ -43,50 +52,50 @@
     ]
   },
   "coreCompetencies": [
-    { 
-      "icon": "/Vector-0.svg", 
+    {
+      "icon": "/Vector-0.svg",
       "label": "User Research",
       "description": "Expert in conducting user interviews, surveys, and usability studies to gather actionable insights",
       "proficiency": 95
     },
-    { 
-      "icon": "/Vector-1.svg", 
+    {
+      "icon": "/Vector-1.svg",
       "label": "Wireframing",
       "description": "Skilled in creating low and high-fidelity wireframes using industry-standard tools",
       "proficiency": 90
     },
-    { 
-      "icon": "/Vector-2.svg", 
+    {
+      "icon": "/Vector-2.svg",
       "label": "Prototyping",
       "description": "Advanced prototyping skills with interactive elements and user flows",
       "proficiency": 92
     },
-    { 
-      "icon": "/Vector-3.svg", 
+    {
+      "icon": "/Vector-3.svg",
       "label": "Usability Testing",
       "description": "Experienced in planning and conducting comprehensive usability tests",
       "proficiency": 20
     },
-    { 
-      "icon": "/Vector-3.svg", 
+    {
+      "icon": "/Vector-3.svg",
       "label": "AI Testing",
       "description": "Specialized in testing AI-powered features and machine learning models",
       "proficiency": 30
     },
-    { 
-      "icon": "/Vector-10.svg", 
+    {
+      "icon": "/Vector-10.svg",
       "label": "Design Systems",
       "description": "Expert in creating and maintaining scalable design systems",
       "proficiency": 87
     },
-    { 
-      "icon": "/Vector-5.svg", 
+    {
+      "icon": "/Vector-5.svg",
       "label": "Agile/SAFe",
       "description": "Certified in Agile methodologies and SAFe framework implementation",
       "proficiency": 100
     },
-    { 
-      "icon": "/Vector-6.svg", 
+    {
+      "icon": "/Vector-6.svg",
       "label": "UI Design",
       "description": "Strong visual design skills with focus on accessibility and user experience",
       "proficiency": 70
@@ -158,34 +167,36 @@
   ],
   "experience": [
     {
-      "icon": "/Vector-5.svg",
-      "title": "UX Designer at Tech Innovators Inc. (2018-Present)",
-      "desc": "Led design for major product launches, resulting in a 20% increase in user engagement. Key projects included a redesign of the flagship product's user interface and the development of a new mobile application."
+      "title": "Senior Software Engineer",
+      "location": "San Francisco, CA",
+      "year": "2022",
+      "skills": ["React", "Node.js", "AWS", "Microservices", "CI/CD"],
+      "description": "Leading development of cloud-native applications using React, Node.js, and AWS. Implementing microservices architecture and CI/CD pipelines. Mentoring junior developers and conducting code reviews.",
+      "icon": "/Vector-5.svg"
     },
     {
-      "icon": "/Vector-6.svg",
-      "title": "Interaction Designer at Digital Solutions Co. (2013-2018)",
-      "desc": "Developed user interfaces for web and mobile applications, focusing on usability and accessibility. Notable projects included designing the user experience for a popular e-commerce platform and a suite of productivity tools."
+      "title": "Software Engineer",
+      "location": "Seattle, WA",
+      "year": "2020",
+      "skills": ["React", "TypeScript", "Node.js", "Testing", "DevOps"],
+      "description": "Developed and maintained full-stack applications using React, TypeScript, and Node.js. Collaborated with cross-functional teams to deliver features and improvements. Implemented automated testing and deployment processes.",
+      "icon": "/Vector-6.svg"
     },
     {
-      "icon": "/Vector-8.svg",
-      "title": "Junior Designer at Creative Minds Agency (2008-2013)",
-      "desc": "Created visual designs and prototypes for various client projects, gaining experience in user-centered design. Worked on projects ranging from marketing websites to internal tools, contributing to the design process from concept to execution."
+      "title": "Full Stack Developer",
+      "location": "New York, NY",
+      "year": "2018",
+      "skills": ["React", "Node.js", "Database", "API", "Agile"],
+      "description": "Built responsive web applications using React and Node.js. Worked on database optimization and API development. Participated in agile development processes and sprint planning.",
+      "icon": "/Vector-8.svg"
     },
     {
-      "icon": "/Vector-5.svg",
-      "title": "UX Designer at Tech Innovators Inc. (2018-Present) 1",
-      "desc": "Led design for major product launches, resulting in a 20% increase in user engagement. Key projects included a redesign of the flagship product's user interface and the development of a new mobile application."
-    },
-    {
-      "icon": "/Vector-6.svg",
-      "title": "Interaction Designer at Digital Solutions Co. (2013-2018) 1",
-      "desc": "Developed user interfaces for web and mobile applications, focusing on usability and accessibility. Notable projects included designing the user experience for a popular e-commerce platform and a suite of productivity tools."
-    },
-    {
-      "icon": "/Vector-8.svg",
-      "title": "Junior Designer at Creative Minds Agency (2008-2013) 1",
-      "desc": "Created visual designs and prototypes for various client projects, gaining experience in user-centered design. Worked on projects ranging from marketing websites to internal tools, contributing to the design process from concept to execution."
+      "title": "Frontend Developer",
+      "location": "Boston, MA",
+      "year": "2017",
+      "skills": ["React", "Redux", "UI/UX", "Accessibility", "Design Systems"],
+      "description": "Created interactive user interfaces using React and Redux. Implemented responsive designs and accessibility features. Collaborated with UX designers to improve user experience.",
+      "icon": "/icons/experience/work.svg"
     }
   ],
   "certifications": [
@@ -211,8 +222,14 @@
     }
   ],
   "onlineCourses": [
-    { "title": "Udemy Courses", "count": 25 },
-    { "title": "LinkedIn Learning Courses", "count": 30 }
+    {
+      "title": "Udemy Courses",
+      "count": 25
+    },
+    {
+      "title": "LinkedIn Learning Courses",
+      "count": 30
+    }
   ],
   "aboutMe": {
     "desc": "I'm a UX designer with over 5 years of experience in creating user-friendly and visually appealing digital products. My expertise lies in user research, interaction design, and prototyping. I'm passionate about understanding user needs and translating them into effective design solutions. I've worked with a variety of clients, from startups to large corporations, and I'm always eager to take on new challenges.",

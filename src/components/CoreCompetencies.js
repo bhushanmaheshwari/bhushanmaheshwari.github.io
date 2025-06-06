@@ -30,7 +30,7 @@ export default function CoreCompetencies({ data }) {
                 />
               </div>
               <span className="transition-colors duration-300 group-hover:text-[#607af9]">
-                {item.label}
+            {item.label}
               </span>
             </div>
 
