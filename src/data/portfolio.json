@@ -1,6 +1,6 @@
 {
   "navbar": {
-    "logo": "/globe.svg",
+    "logo": "globe.svg",
     "title": "Professional Portfolio",
     "links": [
       { "label": "About", "href": "#about" },
@@ -13,15 +13,84 @@
     "headline": "Hi, I'm Bhushan",
     "subtext": "I bring a strong mix of business strategy and deep technical expertise to turn big ideas into real-world solutions. Passionate about bridging business needs with emerging technologies through Agile, SAFe®, and design thinking.",
     "cta": "View My Work",
-    "image":"hero.png"
-
+    "image": "hero.png",
+    "socialLinks": [
+      {
+        "name": "LinkedIn",
+        "icon": "/icons/linkedin.svg",
+        "url": "https://linkedin.com/in/bhushanmaheshwari"
+      },
+      {
+        "name": "GitHub",
+        "icon": "/icons/github.svg",
+        "url": "https://github.com/bhushanmaheshwari"
+      },
+      {
+        "name": "Medium",
+        "icon": "/icons/medium.svg",
+        "url": "https://medium.com/@bhushanmaheshwari"
+      },
+      {
+        "name": "Instagram",
+        "icon": "/icons/instagram.svg",
+        "url": "https://instagram.com/bhushanmaheshwari"
+      },
+      {
+        "name": "Email",
+        "icon": "/icons/email.svg",
+        "url": "mailto:bhushan.maheshwari@gmail.com"
+      }
+    ]
   },
   "coreCompetencies": [
-    { "icon": "/Vector-0.svg", "label": "User Research" },
-    { "icon": "/Vector-1.svg", "label": "Wireframing" },
-    { "icon": "/Vector-2.svg", "label": "Prototyping" },
-    { "icon": "/Vector-3.svg", "label": "Usability Testing" },
-    { "icon": "/Vector-3.svg", "label": "AI Testing" }
+    { 
+      "icon": "/Vector-0.svg", 
+      "label": "User Research",
+      "description": "Expert in conducting user interviews, surveys, and usability studies to gather actionable insights",
+      "proficiency": 95
+    },
+    { 
+      "icon": "/Vector-1.svg", 
+      "label": "Wireframing",
+      "description": "Skilled in creating low and high-fidelity wireframes using industry-standard tools",
+      "proficiency": 90
+    },
+    { 
+      "icon": "/Vector-2.svg", 
+      "label": "Prototyping",
+      "description": "Advanced prototyping skills with interactive elements and user flows",
+      "proficiency": 92
+    },
+    { 
+      "icon": "/Vector-3.svg", 
+      "label": "Usability Testing",
+      "description": "Experienced in planning and conducting comprehensive usability tests",
+      "proficiency": 20
+    },
+    { 
+      "icon": "/Vector-3.svg", 
+      "label": "AI Testing",
+      "description": "Specialized in testing AI-powered features and machine learning models",
+      "proficiency": 30
+    },
+    { 
+      "icon": "/Vector-10.svg", 
+      "label": "Design Systems",
+      "description": "Expert in creating and maintaining scalable design systems",
+      "proficiency": 87
+    },
+    { 
+      "icon": "/Vector-5.svg", 
+      "label": "Agile/SAFe",
+      "description": "Certified in Agile methodologies and SAFe framework implementation",
+      "proficiency": 100
+    },
+    { 
+      "icon": "/Vector-6.svg", 
+      "label": "UI Design",
+      "description": "Strong visual design skills with focus on accessibility and user experience",
+      "proficiency": 70
+    }
   ],
   "featuredProjects": [
     {
@@ -41,17 +110,17 @@
     },
     {
       "image": "/depth-7-frame-0-6.png",
-      "title": "E-commerce Platform Redesign",
+      "title": "E-commerce Platform Redesign 1",
       "desc": "A complete overhaul of an online store, focusing on usability and conversion rates."
     },
     {
       "image": "/depth-7-frame-0-7.png",
-      "title": "Mobile Banking App",
+      "title": "Mobile Banking App 1",
       "desc": "A mobile banking application designed for ease of use and accessibility."
     },
     {
       "image": "/depth-7-frame-0-8.png",
-      "title": "User Research Study",
+      "title": "User Research Study 1",
       "desc": "A comprehensive study on user behavior and needs in the healthcare industry."
     }
   ],
@@ -105,17 +174,17 @@
     },
     {
       "icon": "/Vector-5.svg",
-      "title": "UX Designer at Tech Innovators Inc. (2018-Present)",
+      "title": "UX Designer at Tech Innovators Inc. (2018-Present) 1",
       "desc": "Led design for major product launches, resulting in a 20% increase in user engagement. Key projects included a redesign of the flagship product's user interface and the development of a new mobile application."
     },
     {
       "icon": "/Vector-6.svg",
-      "title": "Interaction Designer at Digital Solutions Co. (2013-2018)",
+      "title": "Interaction Designer at Digital Solutions Co. (2013-2018) 1",
       "desc": "Developed user interfaces for web and mobile applications, focusing on usability and accessibility. Notable projects included designing the user experience for a popular e-commerce platform and a suite of productivity tools."
     },
     {
       "icon": "/Vector-8.svg",
-      "title": "Junior Designer at Creative Minds Agency (2008-2013)",
+      "title": "Junior Designer at Creative Minds Agency (2008-2013) 1",
       "desc": "Created visual designs and prototypes for various client projects, gaining experience in user-centered design. Worked on projects ranging from marketing websites to internal tools, contributing to the design process from concept to execution."
     }
   ],
@@ -147,7 +216,7 @@
   ],
   "aboutMe": {
     "desc": "I'm a UX designer with over 5 years of experience in creating user-friendly and visually appealing digital products. My expertise lies in user research, interaction design, and prototyping. I'm passionate about understanding user needs and translating them into effective design solutions. I've worked with a variety of clients, from startups to large corporations, and I'm always eager to take on new challenges.",
-    "quote": "Great architecture isn’t just scalable. It’s thoughtful, ethical, and built for the people who use it. – Bhushan Maheshwari"
+    "quote": "Great architecture isn't just scalable. It's thoughtful, ethical, and built for the people who use it. – Bhushan Maheshwari"
   },
   "footer": {
     "copyright": "© 2025 Bhushan Maheshwari · Professional Portfolio"
