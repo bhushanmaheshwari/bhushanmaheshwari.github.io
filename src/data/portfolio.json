@@ -10,17 +10,35 @@
     "resume": "Resume"
   },
   "hero": {
-    "headline": "Hi, I'm Alex, a UX Designer",
-    "subtext": "I craft intuitive and engaging digital experiences that solve real-world problems. With a background in psychology and a passion for design, I bring a user-centered approach to every project.",
-    "cta": "View My Work"
+    "headline": "Hi, I'm Bhushan",
+    "subtext": "I bring a strong mix of business strategy and deep technical expertise to turn big ideas into real-world solutions. Passionate about bridging business needs with emerging technologies through Agile, SAFe®, and design thinking.",
+    "cta": "View My Work",
+    "image":"hero.png"
+
   },
   "coreCompetencies": [
     { "icon": "/Vector-0.svg", "label": "User Research" },
     { "icon": "/Vector-1.svg", "label": "Wireframing" },
     { "icon": "/Vector-2.svg", "label": "Prototyping" },
-    { "icon": "/Vector-3.svg", "label": "Usability Testing" }
+    { "icon": "/Vector-3.svg", "label": "Usability Testing" },
+    { "icon": "/Vector-3.svg", "label": "AI Testing" }
   ],
   "featuredProjects": [
+    {
+      "image": "/depth-7-frame-0-6.png",
+      "title": "E-commerce Platform Redesign",
+      "desc": "A complete overhaul of an online store, focusing on usability and conversion rates."
+    },
+    {
+      "image": "/depth-7-frame-0-7.png",
+      "title": "Mobile Banking App",
+      "desc": "A mobile banking application designed for ease of use and accessibility."
+    },
+    {
+      "image": "/depth-7-frame-0-8.png",
+      "title": "User Research Study",
+      "desc": "A comprehensive study on user behavior and needs in the healthcare industry."
+    },
     {
       "image": "/depth-7-frame-0-6.png",
       "title": "E-commerce Platform Redesign",
@@ -70,6 +88,21 @@
     }
   ],
   "experience": [
+    {
+      "icon": "/Vector-5.svg",
+      "title": "UX Designer at Tech Innovators Inc. (2018-Present)",
+      "desc": "Led design for major product launches, resulting in a 20% increase in user engagement. Key projects included a redesign of the flagship product's user interface and the development of a new mobile application."
+    },
+    {
+      "icon": "/Vector-6.svg",
+      "title": "Interaction Designer at Digital Solutions Co. (2013-2018)",
+      "desc": "Developed user interfaces for web and mobile applications, focusing on usability and accessibility. Notable projects included designing the user experience for a popular e-commerce platform and a suite of productivity tools."
+    },
+    {
+      "icon": "/Vector-8.svg",
+      "title": "Junior Designer at Creative Minds Agency (2008-2013)",
+      "desc": "Created visual designs and prototypes for various client projects, gaining experience in user-centered design. Worked on projects ranging from marketing websites to internal tools, contributing to the design process from concept to execution."
+    },
     {
       "icon": "/Vector-5.svg",
       "title": "UX Designer at Tech Innovators Inc. (2018-Present)",
