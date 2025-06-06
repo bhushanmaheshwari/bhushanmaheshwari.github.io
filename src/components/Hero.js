@@ -16,12 +16,30 @@ export default function Hero({ data }) {
           <h1 className="text-white font-extrabold text-3xl sm:text-4xl md:text-6xl text-center mb-2 md:mb-4 animate-fade-in-up drop-shadow-lg">
             {data.headline}
           </h1>
-          <p className="text-white text-base sm:text-lg md:text-xl text-center mb-4 md:mb-8 max-w-2xl animate-fade-in-up animation-delay-200 drop-shadow-md">
+          <p className="text-white text-base sm:text-lg md:text-xl text-center mb-6 md:mb-8 max-w-2xl animate-fade-in-up animation-delay-200 drop-shadow-md">
             {data.subtext}
           </p>
-          <button className="bg-[#607af9] text-white font-semibold rounded-lg px-6 md:px-8 py-3 md:py-4 text-base md:text-lg shadow-lg hover:bg-[#4256c9] transition-all duration-300 transform hover:scale-105 animate-fade-in-up animation-delay-400">
-            {data.cta}
-          </button>
+          <div className="flex gap-4 md:gap-6 animate-fade-in-up animation-delay-400">
+            {data.socialLinks.map((social) => (
+              <a
+                key={social.name}
+                href={social.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white/10 hover:bg-white/20 backdrop-blur-sm p-3 rounded-full transition-all duration-300 transform hover:scale-110 hover:rotate-3"
+                aria-label={social.name}
+              >
+                <div className="relative w-6 h-6 md:w-7 md:h-7">
+                  <Image
+                    src={social.icon}
+                    alt={social.name}
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+              </a>
+            ))}
+          </div>
         </div>
       </div>
     </section>
