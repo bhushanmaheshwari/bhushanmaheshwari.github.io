@@ -1,72 +1,122 @@
-# 👋 Hi, I’m Bhushan Maheshwari
+# Architecting Digital Possibilities 🌐
 
-**Solutions Architect | AI Builder | Cloud Native Thinker**  
-Washington DC, USA | [LinkedIn](https://www.linkedin.com/in/bhushanmaheshwari) | [GitHub](https://github.com/bhushanmaheshwari)
+Welcome to my personal portfolio – an AI-powered journey from mockup to deployment. I built this site to explore end-to-end development and expand my comfort zone into design, UX, and creative workflows, all while staying rooted in intelligent solution architecture.
 
-> “I believe the best solutions are thoughtfully architected, responsibly automated, and built for scale.”  
-> — Bhushan Maheshwari
+🌍 **Live Site:** [bhushanmaheshwari.github.io](https://bhushanmaheshwari.github.io)  
+📧 **Email:** [bhushan.maheshwari15@gmail.com](mailto:bhushan.maheshwari15@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/bhushanmaheshwari) | 🐙 [GitHub](https://github.com/bhushanmaheshwari)
 
-<br/>
+---
 
-## 💼 About Me
+## 👋 Who I Am
 
-I bring 13+ years of experience designing intelligent platforms across **Generative AI**, **cloud-native systems**, and **data engineering pipelines**. I currently lead architecture for enterprise-grade AI solutions — aligning vision, engineering, and measurable business value.
+🚀 **Innovative Solutions Architect** with 13+ years of global experience in AI, cloud, and scalable digital platforms.  
+🎯 Focused on **Generative AI**, **RAG**, **Knowledge Automation**, and **Geospatial Insights**.  
+🏛️ Proud contributor to impactful, mission-driven work at the **World Bank Group**.  
+🧠 Passionate about building tools that make data useful, processes efficient, and people empowered.
 
-I'm passionate about turning strategy into systems. My work bridges **responsible AI design, modern engineering, and agile product leadership**.
+---
 
-<br/>
+## 🧠 Core Competencies
 
-## 🔧 Core Skills
+- **AI & Machine Learning:** Generative AI, RAG, Document Classification, LangChain, Conversational AI  
+- **Cloud & DevOps:** Azure (Certified Architect), Databricks, CI/CD, Terraform, Docker, Kubernetes  
+- **Data Engineering:** Pipelines, Geospatial Data, Unstructured Processing  
+- **Frontend/Backend:** React, Angular, Next.js, Flask, Microservices, GraphQL  
+- **Product Leadership:** Agile & SAFe, Design Thinking, Stakeholder Communication  
 
-- **GenAI / LLMs**: LangChain, LangGraph, Retrieval-Augmented Generation (RAG)
-- **Cloud & Data Platforms**: Azure, Databricks, Data Lake, CI/CD
-- **Architecture**: Microservices, Event-Driven Design, Infrastructure as Code
-- **Frontend & Backend**: React, Angular, Python, Node.js, REST/GraphQL
-- **Leadership**: Agile / SAFe Execution, Roadmapping, Cross-functional Coaching
+---
 
-<br/>
+## 🧩 Portfolio Highlights
 
+<details>
+<summary><strong>🧠 Generative AI for Document Automation</strong></summary>
 
-## 💡 Enterprise Solutions
+- Architected AI solutions for WBG documentation & content workflows  
+- 40% faster reviews through GPT-powered pipelines  
+- Orchestrated with LangChain + Azure + OpenAI
 
-| 🧠 Concept | 🧩 Summary | 🌍 Impact |
-|---------|-------------|--------|
-| **Enterprise Document Intelligence Platform** | AI-powered automation of content generation, validation, and enrichment | 40% time savings · 50,000+ documents processed |
-| **Geospatial Risk Visualization System** | Interactive analytics dashboard for portfolio-wide operational risks | Used by 1,000+ projects · 2× faster insights |
-| **AI-Powered Knowledge Assistant** | Conversational assistant for retrieving documents, data, and actions | Piloted across 3 departments · 60% faster document discovery |
-| **Organizational AI Knowledge Hub** | Internal AI toolkit and knowledge system supporting scalable reuse | 20+ teams onboarded · 4× growth in AI visibility |
+</details>
 
-<br/>
+<details>
+<summary><strong>🛰️ ISR Issues Explorer</strong></summary>
 
-## 🚀 GitHub Projects
+- Built a geospatial dashboard to visualize risks globally  
+- Used Mapbox, Azure Data Lake, OpenAI, and SAP integration  
+- Improved field-level insights with street view data
 
-Here are a few solutions I’ve designed or led that represent scalable architecture, AI integration, and strong product outcomes:
+</details>
 
-### 🧠 Enterprise Document Intelligence Platform  
-LLM-based content pipeline that automated document generation, summarization, and validation.  
-**Impact:** 40% reduction in manual effort, 50K+ documents processed, used by 10+ teams.
+<details>
+<summary><strong>🧾 AI-Powered Document Review Tool</strong></summary>
 
-### 🌍 Geospatial Risk Visualization System  
-Interactive analytics dashboard integrating geospatial layers and AI summarization for large-scale monitoring.  
-**Impact:** Adopted across 1000+ entities; accelerated insights by 2×.
+- Compared, summarized, and classified docs with LLMs  
+- Tech Stack: Angular + Azure Functions + GPT  
+- Accelerated policy and legal reviews
 
-### 🤖 AI-Powered Knowledge Assistant  
-Conversational AI assistant using RAG pipelines and cloud orchestration for real-time knowledge access.  
-**Impact:** 60% faster document discovery, scalable to 50+ teams.
+</details>
 
-### 🧩 Organizational AI Knowledge Hub  
-Central platform to showcase AI tools, architecture patterns, and reusable resources.  
-**Impact:** 4× increase in AI visibility; adopted by 20+ internal teams.
+<details>
+<summary><strong>🌐 AI @ WBG Platform</strong></summary>
 
-<br/>
+- Curated portfolio of AI solutions, use cases, and frameworks  
+- Enabled knowledge sharing and global collaboration  
+- Deployed via GitHub Pages + Static Content Pipeline
 
-## 📄 Live Preview & Resume
+</details>
 
-- Visit my portfolio: [bhushanmaheshwari.github.io](https://bhushanmaheshwari.github.io/)
-- Download resume: [📄 Bhushan-Maheshwari-Resume.pdf](./Bhushan-Maheshwari-Resume.pdf)
+<details>
+<summary><strong>🌍 Country Workspace & CMU Solutions</strong></summary>
 
-<br/>
+- Integrated geospatial tools, analytics, and collaborative content  
+- Boosted productivity by 30% for management teams  
+- Reusability across countries, documents, and risk data
 
-🧭 *Crafted with HTML, CSS, and a little Python brainpower*  
-🕊️ _Hosted on GitHub Pages_ 
-This repository hosts my **digital resume and portfolio site**, designed for clarity, simplicity, and impact. It’s where I share how I design and deliver **scalable, AI-powered cloud solutions** that solve real-world challenges across industries.
+</details>
+
+---
+
+## 🧪 Technology Used in This Portfolio
+
+```bash
+🌐 Frontend       – HTML, Tailwind CSS, Vanilla JS  
+🎨 Design Tool    – Stitch (AI-generated mockups)  
+🚀 Deployment     – GitHub Pages  
+🔁 Workflow       – Design → Dev → AI-enhanced Content → Production  
+```
+
+---
+
+## 🎓 Education & Certifications
+
+- 🎓 **MBA**, Western Governors University (USA)  
+- 🎓 **B.E. in Computer Science**, RGTU (India)  
+- ✅ Microsoft Certified: Azure Solutions Architect Expert  
+- ✅ Microsoft Certified: Generative AI Solutions  
+- ✅ SAFe® Certified Agilist  
+- 🎨 eCornell Diploma in Design Thinking  
+
+---
+
+## 🔭 What's Next?
+
+- [ ] Add blog to share behind-the-scenes learnings  
+- [ ] Publish GitHub templates for document automation  
+- [ ] Open-source AI UI components  
+- [ ] Embed demo video (coming soon!)  
+- [ ] Explore serverless backends for personal projects  
+
+---
+
+## 💬 Let's Collaborate
+
+I love talking tech, AI use cases, and meaningful digital transformation. Feel free to reach out if you want to:
+
+- Co-create a prototype or AI tool  
+- Share product insights or research  
+- Connect around engineering, parenting, or coffee roasting ☕  
+
+---
+
+> 💡 “Architecture begins where engineering ends.” — Walter Gropius  
+> _Let’s build impactful, intelligent, and elegant systems — together._
